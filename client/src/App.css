@@ -1,0 +1,105 @@
+.body{
+  width: 700px;
+  margin: 20px 20px;
+  
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+h3 {
+  margin-bottom: 40px;
+
+}
+
+form {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  border: 3px solid black;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.inputDiv {
+  padding: 23px;
+}
+
+.table {
+  border: 3px solid black; 
+  border-spacing: 0;
+  border-collapse: collapse;
+  
+}
+
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+.nameType {
+  width: 100px;
+  border-right: 2px solid black;
+  background-color: #ccc;
+  text-align: left;
+  
+}
+
+.actions {
+  width: 200px;
+  border-left: 2px solid black;
+  background-color: #ccc;
+  text-align: left;
+}
+
+.tableLinks {
+  border-right: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tableRow {
+  border-right: 2px solid black;
+}
+
+.homeLink {
+  margin: 0px 200px
+}
+
+.infoBody {
+  display: flex;
+  justify-content: flex-start;
+  border: 3px solid black;
+  width: 400px;
+  padding: 20px;
+}
+
+.info {
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.adoptButton {
+  background-color: #cf2a27;
+  color: white;
+  margin-left: 205px;
+  margin-top: 10px;
+  box-shadow: 2px 2px black;
+}
+.submitButton{
+  width: 150px;
+  background-color: #2b78e4;
+  color: white;
+  box-shadow: 2px 2px black;
+}
+
+.error{
+  color: #cf2a27;
+  margin-bottom: 25px;
+}
