@@ -28,7 +28,6 @@ const OnePet = (props) => {
         axios.delete(`http://localhost:8000/api/pets/${deleteId}`)
             .then((res) => {
                 console.log(res.data);
-                setPetList(petList.filter((pet, index) => pet._id !== deleteId));
                 navigate("/")
             })
             .catch((err) => console.log(err))
